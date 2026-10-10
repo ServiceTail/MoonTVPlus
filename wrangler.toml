@@ -4,6 +4,9 @@ compatibility_flags = ["nodejs_compat"]
 main = ".open-next/worker.js"
 minify = true
 
+# 开启 workers.dev 子域名发布
+workers_dev = true
+
 # 静态资源配置
 # Cloudflare Workers Assets 用于服务静态文件
 [assets]
